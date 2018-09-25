@@ -6110,22 +6110,22 @@ p.nominalBounds = new cjs.Rectangle(0,0,56.3,56.3);
 	this.frame_766 = function() {
 		this.gotoAndPlay("tammywateridle")
 	}
-	this.frame_772 = function() {
+	this.frame_771 = function() {
 		playSound("WaterproofingTapeMeasure");
 	}
-	this.frame_826 = function() {
+	this.frame_817 = function() {
 		this.gotoAndPlay("tammywateridle")
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(766).call(this.frame_766).wait(6).call(this.frame_772).wait(54).call(this.frame_826).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).wait(766).call(this.frame_766).wait(5).call(this.frame_771).wait(46).call(this.frame_817).wait(1));
 
 	// Button
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("rgba(102,157,209,0.498)").s().p("AzcIIIAAwPMAm5AAAIAAQPg");
 	this.shape.setTransform(99.1,-21.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(827));
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(818));
 
 	// mask1 (mask)
 	var mask = new cjs.Shape();
@@ -6133,7 +6133,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,56.3,56.3);
 	var mask_graphics_0 = new cjs.Graphics().p("AzkIQIAAwfMAnJAAAIAAQfg");
 	var mask_graphics_767 = new cjs.Graphics().p("AzkIQIAAwfMAnJAAAIAAQfg");
 
-	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:mask_graphics_0,x:98.2,y:-20.2}).wait(767).to({graphics:mask_graphics_767,x:98.2,y:-20.2}).wait(60));
+	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:mask_graphics_0,x:98.2,y:-20.2}).wait(767).to({graphics:mask_graphics_767,x:98.2,y:-20.2}).wait(51));
 
 	// Tammy
 	this.instance = new lib.tamywaterproofing_Tween57("synched",0);
@@ -6146,7 +6146,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,56.3,56.3);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(563).to({startPosition:0},0).to({rotation:23.5,x:38.3,y:8.3},6).to({rotation:0,x:33.9,y:23.7},6).wait(192).to({startPosition:0},0).to({regX:0.1,regY:-0.1,rotation:31.4,x:34,y:-42.5},29).to({regX:0,regY:0,rotation:0,x:33.9,y:23.7},30,cjs.Ease.quadIn).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(563).to({startPosition:0},0).to({rotation:23.5,x:38.3,y:8.3},6).to({rotation:0,x:33.9,y:23.7},6).wait(192).to({startPosition:0},0).to({regX:0.1,regY:-0.1,rotation:31.4,x:34,y:-42.5},25).to({regX:0,regY:0,rotation:0,x:33.9,y:23.7},25,cjs.Ease.quadIn).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-25.4,-73.5,249,106.1);
